@@ -1,0 +1,28 @@
+@import url('https://fonts.googleapis.com/css2?family=Modak&display=swap');
+
+body {
+    font-family: 'Modak', cursive;
+    text-align: center;
+    background: #000;
+    color: #ffffff;
+}
+
+
+.simple-text {
+    margin-top: 250px;
+    background: url(1111.jpg);
+    font-size: 150px;
+    color: transparent;
+    -webkit-background-clip: text;
+    animation: animate 20s infinite ease-in-out;
+    
+}
+
+@keyframes animate {
+    from {
+        background-position:  0 0;
+    }
+    to {
+        background-position: 100% 100%;
+    }
+}
